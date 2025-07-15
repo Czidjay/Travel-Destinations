@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Top 10 Places to Visit</title>
+		<script
+			src="https://kit.fontawesome.com/203f7bcb2a.js"
+			crossorigin="anonymous"
+		></script>
+		<style>
+			body {
+				font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+				background-color: #f9f9f9;
+				margin: 0;
+				padding: 20px;
+			}
+			h1 {
+				text-align: center;
+				color: #4b0082;
+			}
+			.showcase {
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: center;
+				max-width: 1550px;
+				gap: 30px;
+				margin: 0 auto;
+				margin-top: 40px;
+			}
+			.card {
+				width: 273px;
+				overflow: hidden;
+			}
+			.card img {
+				width: 100%;
+				height: 150px;
+				object-fit: cover;
+			}
+			.card-content {
+				padding: 15px 0;
+			}
+			.card-content h3 {
+				margin: 0;
+				color: #4b0082;
+			}
+			.card-content p {
+				margin: 5px 0;
+				font-size: 15px;
+			}
+			table {
+				background-color: #fff;
+				width: 80%;
+				margin: 40px auto;
+				border-collapse: collapse;
+			}
+			th,
+			td {
+				border: 1px solid #ccc;
+				padding: 16px;
+			}
+			th {
+				background-color: #4b0082;
+				color: white;
+			}
+			td ul {
+				margin: 0;
+				padding-left: 20px;
+			}
+			.top {
+				position: fixed;
+				bottom: 25px;
+				right: 40px;
+				background-color: #4b0082;
+				color: white;
+				padding: 12px 18px;
+				border-radius: 10px;
+				text-decoration: none;
+			}
+		</style>
+	</head>
+	<body id="top">
+		<h1><i class="fas fa-globe"></i> My Top 10 Travel Destinations</h1>
+
+		<div class="showcase">
+			<!-- Palawan -->
+			<div class="card">
+				<img
+					src="https://a.cdn-hotels.com/gdcs/production87/d1048/4ed1a1e8-afa7-4640-b8ca-d1d6ccbb54c1.jpg"
+					alt="Palawan"
+				/>
+				<div class="card-content">
+					<h3><i class="fas fa-map-marker"></i> Palawan</h3>
+					<p>
+						Palawan stuns with the Puerto Princesa Underground River,
+						island hopping in El Nido, and shipwreck diving in Coron.
+						<br /><br /><small>
+							—
+							<a
+								href="https://timesofindia.indiatimes.com/travel/destinations/why-is-palawan-in-the-philippines-a-must-visit-island/articleshow/105334820.cms"
+								target="_blank"
+								>Times of India</a
+							>
+						</small>
+					</p>
+				</div>
+			</div>
+
+			<!-- Cebu -->
+			<div class="card">
+				<img
+					src="https://www.phbus.com/wp-content/uploads/2022/01/Bohol-views-phbus.jpg"
+					alt="Cebu"
+				/>
+				<div class="card-content">
+					<h3><i class="fas fa-map-marker-alt"></i> Cebu</h3>
+					<p>
+						Cebu is famed for its whale shark diving in Oslob, sardine runs in
+						Moalboal, and countryside of Bohol’s Chocolate Hills.
+						<br /><br /><small>
+							—
+							<a
+								href="https://madmonkeyhostels.com/blogs/travel-guide/philippines-travel/what-makes-cebu-unique-destination/"
+								target="_blank"
+								>Mad Monkey Hostels</a
+							>
+						</small>
+					</p>
+				</div>
+			</div>
+
+			<!-- Seoul -->
+			<div class="card">
+				<img
+					src="https://www.agoda.com/wp-content/uploads/2024/08/Namsan-Tower-during-autumn-in-Seoul-South-Korea.jpg"
+					alt="Seoul"
+				/>
+				<div class="card-content">
+					<h3><i class="fas fa-map-marker-alt"></i> Seoul</h3>
+					<p>
+						Seoul blends tradition and trend at Namsan Tower views, buzzing
+						K-pop districts, and vibrant night markets.
+						<br /><br /><small>
+							—
+							<a
+								href="https://www.globaltravelerusa.com/why-seoul/"
+								target="_blank"
+								>Global Traveler USA</a
+							>
+						</small>
+					</p>
+				</div>
+			</div>
+
+			<!-- Tokyo -->
+			<div class="card">
+				<img
+					src="https://d3e1m60ptf1oym.cloudfront.net/3b61cf6d-5556-451d-aa90-73c47dc43928/M25795_uxga.jpg"
+					alt="Tokyo"
+				/>
+				<div class="card-content">
+					<h3><i class="fas fa-map-marker-alt"></i> Tokyo</h3>
+					<p>
+						Tokyo electrifies with Shibuya's crossing chaos, retro games in
+						Akihabara, and temples tucked into Asakusa’s alleys.
+						<br /><br /><small>
+							—
+							<a
+								href="https://businesseventstokyo.org/why_tokyo/tokyo_glance/"
+								target="_blank"
+								>Business Events Tokyo</a
+							>
+						</small>
+					</p>
+				</div>
+			</div>
+
+			<!-- Paris -->
+			<div class="card">
+				<img
+					src="https://www.islands.com/img/gallery/the-secret-spot-you-should-check-out-in-the-eiffel-tower-on-your-paris-trip-per-rick-steves/l-intro-1724106694.jpg"
+					alt="Paris"
+				/>
+				<div class="card-content">
+					<h3><i class="fas fa-map-marker-alt"></i> Paris</h3>
+					<p>
+						Paris enchants with the Eiffel Tower’s twinkle, glory at
+						Notre Dame Cathedral, and of the Louvre.
+						<br /><br /><small>
+							—
+							<a
+								href="https://myfrenchcountryhomemagazine.com/why-is-paris-the-city-of-love/"
+								target="_blank"
+								>My French Country Home Magazine</a
+							>
+						</small>
+					</p>
+				</div>
+			</div>
+
+			<!-- Rome -->
+			<div class="card">
+				<img
+					src="https://i.natgeofe.com/k/a6c9f195-de20-445d-9d36-745ef56042c5/OG_Colosseum_Ancient-Rome_KIDS_1122_3x2.jpg"
+					alt="Rome"
+				/>
+				<div class="card-content">
+					<h3><i class="fas fa-map-marker-alt"></i> Rome</h3>
+					<p>
+						Rome is a living museum of ancient ruins like the Colosseum, Vatican
+						art treasures, and wishes cast at Trevi Fountain.
+						<br /><br /><small>
+							—
+							<a
+								href="https://voxcity.com/en/post/187-what-makes-rome-such-a-fascinating-destination-for-travelers"
+								target="_blank"
+								>Vox City</a
+							>
+						</small>
+					</p>
+				</div>
+			</div>
+
+			<!-- Singapore -->
+			<div class="card">
+				<img
+					src="https://img.static-kl.com/images/media/E09ABA7F-D6D2-44EA-826E076B1F616512"
+					alt="Singapore"
+				/>
+				<div class="card-content">
+					<h3><i class="fas fa-map-marker-alt"></i> Singapore</h3>
+					<p>
+						Singapore impresses with Marina Bay’s skyline, futuristic Gardens by
+						the Bay, and the fun in Sentosa. <br /><br /><small>
+							—
+							<a href="https://artsg.com/about/why-singapore/" target="_blank"
+								>ART:SG</a
+							>
+						</small>
+					</p>
+				</div>
+			</div>
+
+			<!-- Thailand -->
+			<div class="card">
+				<img
+					src="https://a.cdn-hotels.com/gdcs/production172/d459/3af9262b-3d8b-40c6-b61d-e37ae1aa90aa.jpg"
+					alt="Thailand"
+				/>
+				<div class="card-content">
+					<h3><i class="fas fa-map-marker-alt"></i> Thailand</h3>
+					<p>
+						Thailand is filled with golden temples in Bangkok, elephant
+						sanctuaries in Chiang Mai, and beach bliss in Phuket.
+						<br /><br /><small>
+							—
+							<a
+								href="https://www.asiaodysseytravel.com/thailand/reasons-to-visit-thailand.html"
+								target="_blank"
+								>Asia Odyssey Travel</a
+							>
+						</small>
+					</p>
+				</div>
+			</div>
+
+			<!-- Hawaii -->
+			<div class="card">
+				<img
+					src="https://www.telegraph.co.uk/content/dam/Travel/2019/June/hawaii-iStock-937940104.jpg"
+					alt="Hawaii"
+				/>
+				<div class="card-content">
+					<h3><i class="fas fa-map-marker-alt"></i> Hawaii</h3>
+					<p>
+						Hawaii impresses with surfing in Oahu, volcano hikes on Big Island,
+						and scenic drives across Maui’s coast. <br /><br /><small>
+							—
+							<a
+								href="https://www.tripster.com/travelguide/top-5-reasons-to-visit-hawaii/"
+								target="_blank"
+								>Tripster</a
+							>
+						</small>
+					</p>
+				</div>
+			</div>
+
+			<!-- New York -->
+			<div class="card">
+				<img
+					src="https://media.architecturaldigest.com/photos/5cdadfa704c41e74349a8438/master/pass/GettyImages-931933966.jpg"
+					alt="New York"
+				/>
+				<div class="card-content">
+					<h3><i class="fas fa-map-marker-alt"></i> New York</h3>
+					<p>
+						New York City thrills with Times Square lights, Central Park
+						strolls, Broadway shows, and iconic skylines.
+						<br /><br /><small>
+							—
+							<a
+								href="https://www.citypass.com/articles/new-york/reasons-visit-new-york-city"
+								target="_blank"
+								>CityPASS</a
+							>
+						</small>
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<table>
+			<thead>
+				<tr>
+					<th>Location</th>
+					<th>Top Spots</th>
+					<th>Travel Type</th>
+				</tr>
+			</thead>
+
+			<tbody>
+				<tr>
+					<td><strong>Palawan, Philippines</strong></td>
+					<td>
+						<ul>
+							<li>Puerto Princesa</li>
+							<li>Coron</li>
+							<li>El Nido</li>
+						</ul>
+					</td>
+					<td>Budget Island Getaway / Nature Escape</td>
+				</tr>
+
+				<tr>
+					<td><strong>Cebu, Philippines</strong></td>
+					<td>
+						<ul>
+							<li>Bohol</li>
+							<li>Moalboal</li>
+							<li>Oslob</li>
+						</ul>
+					</td>
+					<td>Affordable Marine Adventure / Barkada & Family Trip</td>
+				</tr>
+
+				<tr>
+					<td><strong>Seoul, South Korea</strong></td>
+					<td>
+						<ul>
+							<li>Namsan Tower</li>
+							<li>Myeongdong</li>
+							<li>Insadong</li>
+						</ul>
+					</td>
+					<td>K-pop & Street Food Experience / Trendy City Vibe</td>
+				</tr>
+
+				<tr>
+					<td><strong>Tokyo, Japan</strong></td>
+					<td>
+						<ul>
+							<li>Shibuya</li>
+							<li>Akihabara</li>
+							<li>Asakusa</li>
+						</ul>
+					</td>
+					<td>Anime & Tech Adventure / Dream City</td>
+				</tr>
+
+				<tr>
+					<td><strong>Paris, France</strong></td>
+					<td>
+						<ul>
+							<li>Eiffel Tower</li>
+							<li>Louvre</li>
+							<li>Notre-Dame</li>
+						</ul>
+					</td>
+					<td>Art and Romance Tour / Bucket List Experience</td>
+				</tr>
+
+				<tr>
+					<td><strong>Rome, Italy</strong></td>
+					<td>
+						<ul>
+							<li>Colosseum</li>
+							<li>Vatican City</li>
+							<li>Trevi Fountain</li>
+						</ul>
+					</td>
+					<td>History & Architecture Learning Trip</td>
+				</tr>
+
+				<tr>
+					<td><strong>Singapore</strong></td>
+					<td>
+						<ul>
+							<li>Marina Bay Sands</li>
+							<li>Gardens by the Bay</li>
+							<li>Sentosa</li>
+						</ul>
+					</td>
+					<td>Clean, Safe, and Instagrammable City Tour</td>
+				</tr>
+
+				<tr>
+					<td><strong>Thailand</strong></td>
+					<td>
+						<ul>
+							<li>Bangkok</li>
+							<li>Chiang Mai</li>
+							<li>Phuket</li>
+						</ul>
+					</td>
+					<td>Backpacker Budget / Culture & Beach Mix</td>
+				</tr>
+
+				<tr>
+					<td><strong>Hawaii, USA</strong></td>
+					<td>
+						<ul>
+							<li>Oahu</li>
+							<li>Maui</li>
+							<li>Big Island</li>
+						</ul>
+					</td>
+					<td>Dream Summer Break / Island Chill Vibes</td>
+				</tr>
+
+				<tr>
+					<td><strong>New York City, USA</strong></td>
+					<td>
+						<ul>
+							<li>Manhattan</li>
+							<li>Brooklyn</li>
+							<li>Queens</li>
+						</ul>
+					</td>
+					<td>Ultimate City Exploration / Movie Scene Feels</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<a href="#top" class="top"><i class="fas fa-arrow-up"></i> Back to Top</a>
+
+		<footer
+			style="
+				text-align: center;
+				padding: 20px;
+				margin-top: 30px;
+				color: #4b0082;
+			"
+		>
+			<hr style="border: none; border-top: 2px solid #4b0082" />
+			<h3 style="margin-top: 30px; margin-bottom: 0">
+				&copy; 2025 CHUA, Jenilyn Denise. All rights reserved.
+			</h3>
+		</footer>
+	</body>
+</html>
